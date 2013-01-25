@@ -1,3 +1,17 @@
+# Note from Andrew Richardson:
+This is my attempt to make inuit more accessible to designers and not just front end developers by helping to document it in an intuative format similar to what Bootstrap does.
+
+There are several reasons I think this is worthwhile:
+
+* Bootstrap has become very prevelant amoungst the web development community but it has lead to a monotone design aesthetic that I think destroys creativity.
+* Because bootstrap has so much design it's easiest to throw it over a project rather than fight against the design desicions made in the framework.
+* inuit.css is actually very easy to use but it's hard to understand that because documentation is written for developers and not designers.
+* inuit.css allows designers to skip all the dregery of coding a library of elements and get right into designing them.
+
+My goal is to introduce inuit.css to the audience that needs it most, designers, by presenting them with documentation that they can understand.
+
+-------- Below is Harry's documentation that will remain for now ---------
+
 # ![inuit.css](http://inuitcss.com/img/content/logo.png)
 
 inuit.css is a powerful little framework designed for _serious_ developers.
