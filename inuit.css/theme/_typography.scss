@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    $Typography
+\*------------------------------------*/
+
+// Type Variables 
+
+$san-serif: 		'Open Sans', sans-serif;
+$serif: 		'Gentium Book Basic', serif;
+
+// Basic Typography
+
+body {
+	font-family: $serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $san-serif;
+	font-weight: 900;
+}
+
+a {
+	color: #cc0000;
+}
+
+ul, ol {
+
+}
+
+ul {
+
+}
+
+ol {
+	
+}
