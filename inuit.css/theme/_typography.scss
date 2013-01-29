@@ -10,28 +10,23 @@ $serif: 		'Gentium Book Basic', serif;
 // Basic Typography
 
 body {
-	font-family: $serif;
+	font-family: $san-serif;
+	color: #555;
+	font-weight: 100;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $san-serif;
 	font-weight: 900;
+	color: #418AC2;
+}
+.deep-blue {
+	color: $deep-blue;
 }
 
 a {
-	color: #cc0000;
-}
-
-ul, ol {
-
-}
-
-ul {
-
-}
-
-ol {
-
+	color: #418AC2;
+	font-weight: 700;
 }
 
 .center {

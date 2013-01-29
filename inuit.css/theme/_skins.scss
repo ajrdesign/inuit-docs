@@ -1,0 +1,38 @@
+/*------------------------------------*\
+    $Skin
+\*------------------------------------*/
+
+// Color Variables
+$blue:			#418AC2;
+$deep-blue: 	#2F4054;
+$green: 		#3cb250;
+$orange: 		#eac04d;
+
+$border: 		1px solid #ddd;
+
+.blue-bg {
+	background: $blue;
+}
+
+.deep-blue-bg {
+	background: $deep-blue;
+}
+
+.green-bg {
+	background: $green;
+}
+
+.orange-bg {
+	background: $orange;
+}
+
+.l-brd,
+.light-border {
+	border: $border;
+}
+
+.g-padding {
+	padding: 1em;
+	background-color: $green;
+	color: white;
+}
