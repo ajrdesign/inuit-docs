@@ -18,9 +18,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: $san-serif;
 	font-weight: 900;
-	color: #418AC2;
+	color: black;
+	margin-bottom: .6em;
 }
-.deep-blue {
+
+.blue-type {
+	color: $blue;
+}
+
+.deep-blue-type {
 	color: $deep-blue;
 }
 

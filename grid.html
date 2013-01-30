@@ -26,25 +26,81 @@
     </ul>
 
     <h1>Grids</h1>
+    <p>A fluid and nestable grid system. Resize your window to see how you can control grids on smaller devices through classes.
+    </p>
     <div class="gw">
         
-        <div class="g  one-whole">
-                    <p class=g-padding>one-whole</p>
+                <div class="g  one-whole">
+                    <p class="g-padding hide--lap hide--palm">one-whole</p>
+                    <p class="g-padding hide--lap hide--desk">palm-one-whole</p>
+                    <p class="g-padding hide--desk hide--palm">lap-one-whole</p>
                 </div>
                 
                 <div class="g  one-third  lap-one-third  palm-one-whole">
-                    <p class=g-padding>one-third</p>
+                    <p class="g-padding hide--lap hide--palm">one-third</p>
+                    <p class="g-padding hide--lap hide--desk">palm-one-whole</p>
+                    <p class="g-padding hide--desk hide--palm">lap-one-third</p>
                 </div>
                 
                 <div class="g  one-third  lap-two-thirds  palm-one-whole">
-                    <p class=g-padding>one-third</p>
+                    <p class="g-padding hide--lap hide--palm">one-third</p>
+                    <p class="g-padding hide--desk hide--palm">lap-two-thirds</p>
+                    <p class="g-padding hide--desk hide--lap">palm-one-whole</p>
                 </div>
                 
                 <div class="g  one-third  lap-one-whole  palm-one-whole">
-                    <p class=g-padding>one-third</p>
+                    <p class="g-padding hide--lap hide--palm">one-third</p>
+                    <p class="g-padding hide--desk hide--palm">lap-one-whole</p>
+                    <p class="g-padding hide--desk hide--lap">palm-one-whole</p>
                 </div>
         
     </div>
+
+    <h4>Code</h4>
+    <pre class="l-brd">
+
+    &lt;div class="gw"&gt;
+        &lt;div class="g  one-whole"&gt;
+            &lt;p class="hide--lap hide--palm"&gt;one-whole&lt;/p&gt;
+            &lt;p class="hide--lap hide--desk"&gt;palm-one-whole&lt;/p&gt;
+            &lt;p class="hide--desk hide--palm"&gt;lap-one-whole&lt;/p&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="g  one-third  lap-one-third  palm-one-whole"&gt;
+            &lt;p class="hide--lap hide--palm"&gt;one-third&lt;/p&gt;
+            &lt;p class="hide--lap hide--desk"&gt;palm-one-whole&lt;/p&gt;
+            &lt;p class="hide--desk hide--palm"&gt;lap-one-third&lt;/p&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="g  one-third  lap-two-thirds  palm-one-whole"&gt;
+            &lt;p class="hide--lap hide--palm"&gt;one-third&lt;/p&gt;
+            &lt;p class="hide--desk hide--palm"&gt;lap-two-thirds&lt;/p&gt;
+            &lt;p class="hide--desk hide--lap"&gt;palm-one-whole&lt;/p&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="g  one-third  lap-one-whole  palm-one-whole"&gt;
+            &lt;p class="hide--lap hide--palm"&gt;one-third&lt;/p&gt;
+            &lt;p class="hide--desk hide--palm"&gt;lap-one-whole&lt;/p&gt;
+            &lt;p class="hide--desk hide--lap"&gt;palm-one-whole&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    </pre>
+    <h4>Push grids</h4>
+    <p>You can easily offset your grid containers with similar class structures.</p>
+    <div class="gw">
+    
+        <div class="g  one-third  push--one-third">
+            <p class="g-padding">push--one-third</p>
+        </div>
+
+    </div>
+
+    <pre class="l-brd">
+
+    &lt;div class="g  one-third  push--one-third"&gt;
+        &lt;p&gt;push--one-third&lt;/p&gt;
+    &lt;/div&gt;
+    </pre>
 
     <footer class="page-foot">
         <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
